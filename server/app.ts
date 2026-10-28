@@ -232,8 +232,8 @@ export function createApiApp(options?: {
       // Update multi-turn conversation history
       const updatedHistory: ChatTurn[] = [
         ...history,
-        { role: 'user', content: trimmedMessage },
-        { role: 'assistant', content: aiResult.answer, sources: retrieval.sources },
+        { role: 'user' as const, content: trimmedMessage },
+        { role: 'assistant' as const, content: aiResult.answer, sources: retrieval.sources },
       ].slice(-MAX_SESSION_TURNS);
       sessionHistoryStore.set(sessionId, updatedHistory);
 

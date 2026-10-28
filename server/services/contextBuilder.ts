@@ -1,4 +1,5 @@
-import { ChatTurn, RetrievalResult, loadEventDataset } from './eventRetrieval';
+import type { ChatTurn, RetrievalResult } from './eventRetrieval.ts';
+import { loadEventDataset } from './eventRetrieval.ts';
 
 export const EVENTMATE_SYSTEM_PROMPT = `You are EventMate, a professional, friendly, and reliable AI Event Assistant.
 

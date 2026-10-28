@@ -3,8 +3,8 @@ import {
   EVENTMATE_SYSTEM_PROMPT,
   buildDeterministicLocalAnswer,
   buildGroundedPrompt,
-} from './contextBuilder';
-import { ChatTurn, RetrievalResult } from './eventRetrieval';
+} from './contextBuilder.ts';
+import type { ChatTurn, RetrievalResult } from './eventRetrieval.ts';
 
 export interface GemmaServiceResponse {
   answer: string;

@@ -1,8 +1,8 @@
 import assert from 'node:assert/strict';
 import http from 'node:http';
-import { createApiApp, resetServerStateForTests } from '../server/app';
-import { generateEventAssistantReply } from '../server/services/gemmaService';
-import { retrieveRelevantContext } from '../server/services/eventRetrieval';
+import { createApiApp, resetServerStateForTests } from '../server/app.ts';
+import { generateEventAssistantReply } from '../server/services/gemmaService.ts';
+import { retrieveRelevantContext } from '../server/services/eventRetrieval.ts';
 
 async function requestJson(
   server: http.Server,
