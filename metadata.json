@@ -1,0 +1,6 @@
+{
+  "name": "EventMate — AI Event Assistant",
+  "description": "Production-grade AI Event Assistant powered by Google Gemma & Gemini for instant answers on conference schedules, speakers, venues, workshops, and FAQs.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

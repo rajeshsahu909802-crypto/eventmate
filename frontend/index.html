@@ -1,0 +1,63 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>EventMate — AI Event Assistant</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header class="top-nav">
+      <a href="#home" class="brand">EventMate</a>
+      <nav class="nav-links">
+        <a href="#dashboard">Overview</a>
+        <a href="#schedule">Schedule</a>
+        <a href="#speakers">Speakers</a>
+        <a href="#venues">Venues</a>
+        <a href="#faqs">FAQs</a>
+      </nav>
+      <a href="#assistant" class="cta-btn">Ask EventMate AI</a>
+    </header>
+
+    <main id="home" class="container">
+      <section class="hero">
+        <h1>Your Event, Simplified with AI</h1>
+        <p>Ask anything about the event. Get instant answers about schedules, speakers, venues, and more.</p>
+        <form id="hero-form" class="chat-form">
+          <input id="hero-input" type="text" placeholder="Ask about schedules, speakers, venues..." required />
+          <button type="submit">Ask AI</button>
+        </form>
+      </section>
+
+      <section id="assistant" class="card">
+        <h2>EventMate AI Chat</h2>
+        <div id="chat-messages" class="chat-box"></div>
+        <form id="chat-form" class="chat-form">
+          <textarea id="chat-input" rows="2" placeholder="Ask EventMate... (Enter to send, Shift+Enter for new line)"></textarea>
+          <button type="submit">Send</button>
+        </form>
+      </section>
+
+      <section id="schedule" class="card">
+        <h2>Event Schedule</h2>
+        <div id="schedule-list"></div>
+      </section>
+
+      <section id="speakers" class="card">
+        <h2>Speaker Directory</h2>
+        <div id="speakers-list"></div>
+      </section>
+
+      <section id="venues" class="card">
+        <h2>Venue Directory</h2>
+        <div id="venues-list"></div>
+      </section>
+
+      <section id="faqs" class="card">
+        <h2>Event FAQs</h2>
+        <div id="faqs-list"></div>
+      </section>
+    </main>
+    <script src="app.js" type="module"></script>
+  </body>
+</html>

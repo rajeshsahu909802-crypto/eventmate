@@ -1,0 +1,406 @@
+{
+  "event": {
+    "name": "Demo Technology Conference 2026",
+    "start_date": "2026-11-14",
+    "end_date": "2026-11-15",
+    "daily_start_time": "08:30 IST",
+    "daily_end_time": "18:00 IST",
+    "timezone": "Asia/Kolkata",
+    "venue": "Bengaluru International Tech Convention Centre (BITCC), Whitefield, Bengaluru",
+    "description": "Demonstration event data — A two-day technology summit featuring keynotes, hands-on technical workshops, and architectural tracks across AI, Cybersecurity, Cloud Systems, and Robotics.",
+    "is_demonstration_data": true,
+    "status": "Confirmed (Demonstration Dataset)"
+  },
+  "sessions": [
+    {
+      "id": "sess-001",
+      "title": "Registration, Badge Pickup & Welcome Coffee",
+      "date": "2026-11-14",
+      "day_label": "Day 1",
+      "start_time": "08:30",
+      "end_time": "09:30",
+      "timezone": "Asia/Kolkata",
+      "speaker_id": null,
+      "speaker_name": "Event Operations Team",
+      "venue_id": "venue-001",
+      "venue_name": "Main Concourse Registration Desk",
+      "category": "General",
+      "status": "Confirmed",
+      "description": "Check in with your QR code and government-issued photo ID to collect your smart conference badge, lanyard, and welcome kit."
+    },
+    {
+      "id": "sess-002",
+      "title": "Opening Keynote: Grounded Foundation Models & Reliable Enterprise AI",
+      "date": "2026-11-14",
+      "day_label": "Day 1",
+      "start_time": "09:30",
+      "end_time": "10:45",
+      "timezone": "Asia/Kolkata",
+      "speaker_id": "spk-001",
+      "speaker_name": "Dr. Ananya Sharma",
+      "venue_id": "venue-002",
+      "venue_name": "Grand Ballroom A",
+      "category": "Keynote",
+      "status": "Confirmed",
+      "description": "Opening keynote exploring how open-weight Gemma architectures and retrieval-augmented verification eliminate hallucinations in mission-critical deployments."
+    },
+    {
+      "id": "sess-003",
+      "title": "Hands-On AI Workshop: Building Retrieval-Augmented Agents with Gemma",
+      "date": "2026-11-14",
+      "day_label": "Day 1",
+      "start_time": "11:00",
+      "end_time": "13:00",
+      "timezone": "Asia/Kolkata",
+      "speaker_id": "spk-001",
+      "speaker_name": "Dr. Ananya Sharma",
+      "venue_id": "venue-003",
+      "venue_name": "AI Innovation Lab 204",
+      "category": "AI Workshop",
+      "status": "Confirmed",
+      "description": "Practical coding workshop covering context retrieval, prompt-injection defense, structured output schemas, and low-latency inference with Google Gemma models. Bring a laptop with Python 3.11+ installed."
+    },
+    {
+      "id": "sess-004",
+      "title": "Zero-Trust Cloud Defense & AI Threat Detection",
+      "date": "2026-11-14",
+      "day_label": "Day 1",
+      "start_time": "11:00",
+      "end_time": "12:30",
+      "timezone": "Asia/Kolkata",
+      "speaker_id": "spk-002",
+      "speaker_name": "Vikram Mehta",
+      "venue_id": "venue-004",
+      "venue_name": "Cyber Defense Auditorium B",
+      "category": "Cybersecurity",
+      "status": "Confirmed",
+      "description": "Deep dive into securing distributed microservices, preventing identity token replay, and hardening enterprise endpoints against automated intrusion."
+    },
+    {
+      "id": "sess-005",
+      "title": "Networking Lunch & Exhibition Showcase",
+      "date": "2026-11-14",
+      "day_label": "Day 1",
+      "start_time": "13:00",
+      "end_time": "14:15",
+      "timezone": "Asia/Kolkata",
+      "speaker_id": null,
+      "speaker_name": "Culinary & Hospitality Team",
+      "venue_id": "venue-006",
+      "venue_name": "Main Dining Atrium",
+      "category": "Networking",
+      "status": "Confirmed",
+      "description": "Complimentary buffet lunch included for all registered badge holders, with vegetarian, vegan, Jain, and gluten-free stations."
+    },
+    {
+      "id": "sess-006",
+      "title": "Multi-Region Kubernetes & High-Throughput Inference Scaling",
+      "date": "2026-11-14",
+      "day_label": "Day 1",
+      "start_time": "14:30",
+      "end_time": "16:00",
+      "timezone": "Asia/Kolkata",
+      "speaker_id": "spk-003",
+      "speaker_name": "Priya Nair",
+      "venue_id": "venue-005",
+      "venue_name": "Cloud Workshop Studio 302",
+      "category": "Cloud & Infrastructure",
+      "status": "Confirmed",
+      "description": "Architectural patterns for autoscaling GPU workloads across multiple availability zones while keeping tail latency under 150ms."
+    },
+    {
+      "id": "sess-007",
+      "title": "Securing LLM Applications Against Prompt Injection & Data Exfiltration",
+      "date": "2026-11-14",
+      "day_label": "Day 1",
+      "start_time": "14:30",
+      "end_time": "16:00",
+      "timezone": "Asia/Kolkata",
+      "speaker_id": "spk-002",
+      "speaker_name": "Vikram Mehta",
+      "venue_id": "venue-004",
+      "venue_name": "Cyber Defense Auditorium B",
+      "category": "Cybersecurity",
+      "status": "Confirmed",
+      "description": "Red-teaming conversational AI interfaces, enforcing strict source-of-truth boundaries, and sanitizing untrusted context payloads."
+    },
+    {
+      "id": "sess-008",
+      "title": "Day 2 Keynote: Embodied Intelligence & Autonomous Warehouse Robotics",
+      "date": "2026-11-15",
+      "day_label": "Day 2",
+      "start_time": "09:30",
+      "end_time": "10:45",
+      "timezone": "Asia/Kolkata",
+      "speaker_id": "spk-004",
+      "speaker_name": "Dr. Rohan Deshmukh",
+      "venue_id": "venue-002",
+      "venue_name": "Grand Ballroom A",
+      "category": "Keynote",
+      "status": "Confirmed",
+      "description": "How vision-language-action models enable safe, real-time spatial navigation for industrial collaborative robots."
+    },
+    {
+      "id": "sess-009",
+      "title": "Post-Quantum Cryptography Readiness for Financial Systems",
+      "date": "2026-11-15",
+      "day_label": "Day 2",
+      "start_time": "11:15",
+      "end_time": "12:45",
+      "timezone": "Asia/Kolkata",
+      "speaker_id": "spk-005",
+      "speaker_name": "Meera Krishnan",
+      "venue_id": "venue-004",
+      "venue_name": "Cyber Defense Auditorium B",
+      "category": "Cybersecurity",
+      "status": "Confirmed",
+      "description": "Migrating TLS pipelines and key-exchange protocols to NIST-standardized lattice-based cryptographic algorithms."
+    },
+    {
+      "id": "sess-010",
+      "title": "Edge AI Optimization Workshop: Quantization & On-Device Deployment",
+      "date": "2026-11-15",
+      "day_label": "Day 2",
+      "start_time": "11:15",
+      "end_time": "12:45",
+      "timezone": "Asia/Kolkata",
+      "speaker_id": "spk-006",
+      "speaker_name": "Arjun Verma",
+      "venue_id": "venue-003",
+      "venue_name": "AI Innovation Lab 204",
+      "category": "AI Workshop",
+      "status": "Confirmed",
+      "description": "Hands-on tutorial on 4-bit AWQ quantization and running compact Gemma models on mobile and embedded NPU hardware."
+    },
+    {
+      "id": "sess-011",
+      "title": "Closing Panel & Certificate Distribution Briefing",
+      "date": "2026-11-15",
+      "day_label": "Day 2",
+      "start_time": "16:15",
+      "end_time": "17:30",
+      "timezone": "Asia/Kolkata",
+      "speaker_id": "spk-001",
+      "speaker_name": "Dr. Ananya Sharma & Panel",
+      "venue_id": "venue-002",
+      "venue_name": "Grand Ballroom A",
+      "category": "General",
+      "status": "Confirmed",
+      "description": "Synthesis of conference takeaways, open Q&A with track chairs, and instructions for downloading verified digital attendance certificates."
+    }
+  ],
+  "speakers": [
+    {
+      "id": "spk-001",
+      "name": "Dr. Ananya Sharma",
+      "title": "Chief AI Scientist, BharatFoundry Labs (Keynote Speaker)",
+      "biography": "Dr. Ananya Sharma leads applied foundation model research with 14 years of experience in retrieval-augmented generation, model alignment, and enterprise AI reliability.",
+      "expertise": ["Generative AI", "Gemma Models", "RAG Architecture", "AI Safety"],
+      "sessions": ["sess-002", "sess-003", "sess-011"],
+      "avatar_key": "ananya"
+    },
+    {
+      "id": "spk-002",
+      "name": "Vikram Mehta",
+      "title": "Principal Cybersecurity Architect, KavachSec",
+      "biography": "Vikram Mehta specializes in zero-trust cloud security, adversarial red-teaming of LLM applications, and critical infrastructure defense across APAC financial institutions.",
+      "expertise": ["Cybersecurity", "LLM Security", "Zero-Trust Architecture", "Threat Hunting"],
+      "sessions": ["sess-004", "sess-007"],
+      "avatar_key": "vikram"
+    },
+    {
+      "id": "spk-003",
+      "name": "Priya Nair",
+      "title": "VP of Cloud Infrastructure, StratosScale",
+      "biography": "Priya Nair oversees multi-region distributed Kubernetes clusters serving over 40 million daily requests and leads open-source GPU scheduling initiatives.",
+      "expertise": ["Cloud Native", "Kubernetes", "GPU Scheduling", "Distributed Systems"],
+      "sessions": ["sess-006"],
+      "avatar_key": "priya"
+    },
+    {
+      "id": "spk-004",
+      "name": "Dr. Rohan Deshmukh",
+      "title": "Director of Autonomous Systems, MechaDynamics Institute",
+      "biography": "Dr. Rohan Deshmukh researches embodied robotics, spatial SLAM navigation, and real-time control loops for warehouse and medical automation.",
+      "expertise": ["Autonomous Robotics", "Embodied AI", "Computer Vision", "Sensor Fusion"],
+      "sessions": ["sess-008"],
+      "avatar_key": "rohan"
+    },
+    {
+      "id": "spk-005",
+      "name": "Meera Krishnan",
+      "title": "Head of Applied Cryptography, FinShield Systems",
+      "biography": "Meera Krishnan advises banking regulators and enterprise security teams on post-quantum cryptographic migration and hardware security modules.",
+      "expertise": ["Cybersecurity", "Post-Quantum Cryptography", "TLS Security", "Compliance"],
+      "sessions": ["sess-009"],
+      "avatar_key": "meera"
+    },
+    {
+      "id": "spk-006",
+      "name": "Arjun Verma",
+      "title": "Staff Edge ML Engineer, NeuralEdge",
+      "biography": "Arjun Verma builds compiler toolchains and quantization pipelines for deploying compact language models on consumer laptops and edge NPUs.",
+      "expertise": ["Edge AI", "Model Quantization", "On-Device Inference", "C++ Runtimes"],
+      "sessions": ["sess-010"],
+      "avatar_key": "arjun"
+    }
+  ],
+  "venues": [
+    {
+      "id": "venue-001",
+      "name": "Main Concourse Registration Desk",
+      "building": "Tower A (North Entrance)",
+      "floor": "Ground Floor (Level 0)",
+      "room": "Foyer Counters 1–8",
+      "capacity": 400,
+      "directions": "Enter directly through Gate 1 at the North Plaza drop-off zone. The registration counters are 20 meters straight ahead beneath the digital welcome arch.",
+      "accessibility": "Step-free level entrance, tactile floor guidance strips, lowered wheelchair check-in counter at Counter 1, and sign-language interpretation on request."
+    },
+    {
+      "id": "venue-002",
+      "name": "Grand Ballroom A",
+      "building": "Central Plenary Wing",
+      "floor": "First Floor (Level 1)",
+      "room": "Hall A-101",
+      "capacity": 1200,
+      "directions": "From the Main Concourse Registration Desk, take the central escalators or Panoramic Elevators E1/E2 up one level to Level 1 and follow signage for Plenary Hall A.",
+      "accessibility": "Wheelchair seating bays in rows A, F, and M; hearing loop system enabled; live English closed captioning displayed on side LED screens."
+    },
+    {
+      "id": "venue-003",
+      "name": "AI Innovation Lab 204",
+      "building": "East Technical Wing",
+      "floor": "Second Floor (Level 2)",
+      "room": "Room 204",
+      "capacity": 180,
+      "directions": "Take the East Wing elevators (E3/E4) to Level 2, turn right past the tech helpdesk, and walk 35 meters down the glass corridor to Room 204.",
+      "accessibility": "Wide automatic sliding doors, height-adjustable workstation desks in the front two rows, and accessible restroom directly opposite Room 202."
+    },
+    {
+      "id": "venue-004",
+      "name": "Cyber Defense Auditorium B",
+      "building": "West Wing",
+      "floor": "First Floor (Level 1)",
+      "room": "Auditorium B-104",
+      "capacity": 450,
+      "directions": "From Level 1 Central Atrium, walk west across the skybridge toward the West Wing. Auditorium B-104 is the first large entrance on the left.",
+      "accessibility": "Ramp access along both aisles, companion seating, and assistive listening receivers available at the auditorium entrance desk."
+    },
+    {
+      "id": "venue-005",
+      "name": "Cloud Workshop Studio 302",
+      "building": "East Technical Wing",
+      "floor": "Third Floor (Level 3)",
+      "room": "Studio 302",
+      "capacity": 150,
+      "directions": "Take East Wing elevators (E3/E4) to Level 3 and turn left. Studio 302 is adjacent to the developer lounge.",
+      "accessibility": "Step-free access via Elevators E3/E4, power outlets at every seat, and wheelchair-accessible seating pods."
+    },
+    {
+      "id": "venue-006",
+      "name": "Main Dining Atrium",
+      "building": "South Garden Pavilion",
+      "floor": "Ground Floor (Level 0)",
+      "room": "Garden Hall & Terrace",
+      "capacity": 800,
+      "directions": "Walk south past the Central Concourse coffee bar toward the glass courtyard doors leading into the South Garden Pavilion.",
+      "accessibility": "Full ground-level access, wide buffet lanes, clearly labeled allergen cards, and low-height dining tables."
+    }
+  ],
+  "faqs": [
+    {
+      "id": "faq-001",
+      "category": "Registration",
+      "question": "Where can I find the registration desk and how do I check in?",
+      "answer": "The Main Concourse Registration Desk is located in Tower A (North Entrance), Ground Floor (Level 0), Foyer Counters 1–8. Enter via Gate 1. Present your confirmation QR code (digital or printed) along with a valid government-issued photo ID to receive your conference badge."
+    },
+    {
+      "id": "faq-002",
+      "category": "Entry requirements",
+      "question": "What documents and items are required for entry into the venue?",
+      "answer": "All attendees must wear their official conference badge visibly at all times and carry a valid government-issued photo ID (Passport, Aadhaar, Driver's License, or PAN card) matching their registration name. Security bag screening is conducted at Gate 1 and Gate 2."
+    },
+    {
+      "id": "faq-003",
+      "category": "Timings",
+      "question": "What time does the event start and end each day?",
+      "answer": "The conference runs on November 14 and November 15, 2026 (Asia/Kolkata timezone). Doors and registration open at 08:30 IST daily. Opening keynotes begin at 09:30 IST, and formal programming concludes by 18:00 IST on Day 1 and 17:30 IST on Day 2."
+    },
+    {
+      "id": "faq-004",
+      "category": "Food and refreshments",
+      "question": "Is lunch included with my registration, and are dietary options available?",
+      "answer": "Yes, complimentary buffet lunch as well as morning and afternoon coffee/tea refreshments are included for all registered attendees. Lunch is served from 13:00 to 14:15 IST in the Main Dining Atrium (Ground Floor, South Garden Pavilion) with dedicated vegetarian, vegan, Jain, and gluten-free stations."
+    },
+    {
+      "id": "faq-005",
+      "category": "Workshops",
+      "question": "What should I bring to the event and technical workshops?",
+      "answer": "Please bring: (1) Your registration QR code and government photo ID, (2) A fully charged laptop and charger if attending hands-on workshops in AI Innovation Lab 204 or Cloud Workshop Studio 302, (3) Python 3.11+ and Docker pre-installed for the AI workshop, and (4) A refillable water bottle for the hydration stations."
+    },
+    {
+      "id": "faq-006",
+      "category": "Certificates",
+      "question": "How do I receive a certificate of participation?",
+      "answer": "Verified digital certificates of attendance are issued to all attendees who check in at the registration desk. Workshop completion certificates require badge scan check-in at the workshop room entrance. Download links are emailed within 48 hours after Day 2 concludes."
+    },
+    {
+      "id": "faq-007",
+      "category": "Technical support",
+      "question": "How do I connect to conference Wi-Fi or get on-site technical support?",
+      "answer": "Connect to the 'BITCC-Conference-5G' Wi-Fi network using the access code printed on the back of your attendee badge. For workshop environment setup or badge issues, visit the Tech Support Desk on Level 2 outside AI Innovation Lab 204 or email support@demotechconf.example.org."
+    },
+    {
+      "id": "faq-008",
+      "category": "Contact information",
+      "question": "How can I contact the event organizers or emergency desk?",
+      "answer": "You can contact the Event Organizing Committee via email at helpdesk@demotechconf.example.org, by phone at +91-80-4090-2026 (08:00–19:00 IST), or in person at Counter 8 of the Main Concourse Registration Desk (Ground Floor, Tower A)."
+    }
+  ],
+  "announcements": [
+    {
+      "id": "ann-001",
+      "title": "AI Workshop Environment Pre-Check",
+      "timestamp": "2026-11-14T08:00:00+05:30",
+      "priority": "Important",
+      "content": "Attendees joining 'Hands-On AI Workshop: Building Retrieval-Augmented Agents with Gemma' (11:00 IST, AI Innovation Lab 204) are encouraged to clone the starter repository over the high-speed lounge Wi-Fi before 10:45 IST."
+    },
+    {
+      "id": "ann-002",
+      "title": "Simultaneous Morning & Afternoon Track Notice",
+      "timestamp": "2026-11-14T08:15:00+05:30",
+      "priority": "Schedule",
+      "content": "Please note that on Day 1 (Nov 14), the AI Workshop (Room 204) and Zero-Trust Cloud Defense (Auditorium B) run simultaneously at 11:00 IST. At 14:30 IST, Multi-Region Kubernetes (Studio 302) and Securing LLM Applications (Auditorium B) also run simultaneously."
+    },
+    {
+      "id": "ann-003",
+      "title": "Demonstration Dataset Notice",
+      "timestamp": "2026-11-14T07:30:00+05:30",
+      "priority": "System",
+      "content": "This instance is currently loaded with the verified Demo Technology Conference 2026 dataset. Replace backend/data/event_data.json with your live production event records prior to event launch."
+    }
+  ],
+  "organizer_contacts": [
+    {
+      "role": "General Attendee Helpdesk",
+      "email": "helpdesk@demotechconf.example.org",
+      "phone": "+91-80-4090-2026",
+      "location": "Main Concourse Registration Desk, Counter 8 (Ground Floor, Tower A)",
+      "hours": "08:00 – 19:00 IST"
+    },
+    {
+      "role": "Workshop & Wi-Fi Technical Support",
+      "email": "support@demotechconf.example.org",
+      "phone": "+91-80-4090-2027",
+      "location": "East Technical Wing, Level 2 Corridor (Outside Room 204)",
+      "hours": "08:30 – 18:00 IST"
+    },
+    {
+      "role": "Accessibility & Medical Assistance",
+      "email": "care@demotechconf.example.org",
+      "phone": "+91-80-4090-2099",
+      "location": "Tower A Ground Floor First-Aid Suite & Counter 1",
+      "hours": "24/7 during conference dates"
+    }
+  ]
+}
